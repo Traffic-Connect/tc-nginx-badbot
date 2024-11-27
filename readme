@@ -1,0 +1,7 @@
+Блокирует указанные в скрипте боты
+
+sudo chmod 0755 /root/tc-nginx-badbot/badbot.sh
+
+crontab -e
+
+00 04 * * * /root/tc-nginx-badbot/badbot.sh
